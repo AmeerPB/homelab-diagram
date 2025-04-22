@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="Page-1" id="vRcWMePUMHAfugz9_YTz">
-    <mxGraphModel dx="3842" dy="1434" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="3004" dy="1055" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ATMUUmoHCsZ2GmzYa5V1-86" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFD966;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-558" y="143" width="157" height="77" as="geometry" />
+        </mxCell>
         <mxCell id="hy06MmoNsF3IsZ6LjR5O-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFB366;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="-1050" y="1544" width="1906" height="750" as="geometry" />
         </mxCell>
@@ -106,7 +109,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ZC3k0Vkt_Njtrgb3o6p-44" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;color: rgb(151, 208, 119);&quot;&gt;1G Switch&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;b style=&quot;color: light-dark(rgb(151, 208, 119), rgb(41, 90, 13)); font-size: 14px; background-color: transparent;&quot;&gt;192.168.200.1/24&lt;/b&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
+        <mxCell id="4ZC3k0Vkt_Njtrgb3o6p-44" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;color: rgb(151, 208, 119);&quot;&gt;1G Managed Switch&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;b style=&quot;color: light-dark(rgb(151, 208, 119), rgb(41, 90, 13)); font-size: 14px; background-color: transparent;&quot;&gt;192.168.200.1/24&lt;/b&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-104" y="804" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4ZC3k0Vkt_Njtrgb3o6p-45" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(151, 208, 119), rgb(41, 90, 13)); background-color: transparent;&quot;&gt;Proxmox&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
@@ -718,11 +721,44 @@
             <mxPoint x="614.6" y="2491.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rJSejwkF7gKP_2eQH0u4-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#97d077&quot;&gt;&lt;b style=&quot;&quot;&gt;CNI CIDR 10.50.0.0/16&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rJSejwkF7gKP_2eQH0u4-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#97d077&quot;&gt;&lt;b style=&quot;&quot;&gt;CNI CIDR 10.50.0.0/16&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1058" y="3128" width="267" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="rJSejwkF7gKP_2eQH0u4-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#97d077&quot;&gt;&lt;b style=&quot;&quot;&gt;CNI CIDR 10.50.0.0/16&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rJSejwkF7gKP_2eQH0u4-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#97d077&quot;&gt;&lt;b style=&quot;&quot;&gt;CNI CIDR 10.50.0.0/16&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-955" y="3436" width="267" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="ATMUUmoHCsZ2GmzYa5V1-84" value="SPOF - 1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="-489" y="163.5" width="81" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ATMUUmoHCsZ2GmzYa5V1-85" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Globe_Warning.svg;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="148.5" width="56.00000000000001" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ATMUUmoHCsZ2GmzYa5V1-89" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.444;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFD966;" edge="1" parent="1" source="ATMUUmoHCsZ2GmzYa5V1-86" target="blwIQNNgFzariLI7lr2Q-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-449.9999999999999" y="234" as="sourcePoint" />
+            <mxPoint x="-348.9999999999999" y="313" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATMUUmoHCsZ2GmzYa5V1-92" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Globe_Warning.svg;" vertex="1" parent="1">
+          <mxGeometry x="-371.2" y="612" width="56.00000000000001" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ATMUUmoHCsZ2GmzYa5V1-93" value="SPOF - 2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;strokeColor=none;strokeWidth=1;fillColor=#FFBC26;fontColor=#000000;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="-310.2" y="634" width="78" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ATMUUmoHCsZ2GmzYa5V1-94" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFD966;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-377.2" y="607" width="151" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="ATMUUmoHCsZ2GmzYa5V1-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFD966;" edge="1" parent="1" source="ATMUUmoHCsZ2GmzYa5V1-94" target="4ZC3k0Vkt_Njtrgb3o6p-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-334.23" y="718.03" as="sourcePoint" />
+            <mxPoint x="-175.23" y="826.03" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATMUUmoHCsZ2GmzYa5V1-104" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFD966;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1073" y="36.5" width="370.5" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="ATMUUmoHCsZ2GmzYa5V1-109" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;color: rgb(151, 208, 119);&quot;&gt;Single Point Of Failure&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;color: rgb(151, 208, 119);&quot;&gt;&lt;b&gt;1. Need pFSense Cluster for HA. Add a 3rd NIC&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;color: rgb(151, 208, 119);&quot;&gt;&lt;b style=&quot;&quot;&gt;2. Needs to use a secondary managed switch with LAG (LACP). Use the Active/Active method.&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1059.5" y="47.5" width="356" height="116.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
